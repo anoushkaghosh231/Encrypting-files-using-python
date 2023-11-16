@@ -1,28 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Spyder Editor
-
-This is a temporary script file.
-
-def IsEmpty(stk):
-    if stk==[]:
-        return True
-    else:
-        return False
-def Push(stk,item):
-    stk.append(item)
-    top=len(stk)-1
-
-def Pop(stk):
-    if IsEmpty(stk):
-        print("khaali stack")
-    else:
-        item=stk.pop()
-        if IsEmpty(stk):
-            print("firse khaali hai")
-        else:
-            top=len(stk)-1
-    return item
 """
 from cryptography.fernet import Fernet
 import random
